@@ -4,16 +4,12 @@
     </header>
 
 <body>
-
-        <form enctype="multipart/form-data" action="/upload" method="post">
-            <!-- django 的csrf 防御机制 -->
-            {%csrf_token%}
-            <input type="file" name="myfile" />
-            <br>
-            <input type="submit" value="上传文件" />
-        </form>
-
-
+Redirect
 </body>
-
+<script>
+window.onload = function() {
+    // similar behavior as an HTTP redirect
+    window.location.replace("http://127.0.0.1:8000");
+}
+</script>
 </html>
