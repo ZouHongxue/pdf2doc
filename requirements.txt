@@ -1,2 +1,2 @@
-Django==4.2.7
-pdf2docx==0.5.6
+Django
+pdf2docx
