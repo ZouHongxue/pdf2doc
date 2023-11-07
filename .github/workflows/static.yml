@@ -62,6 +62,7 @@ jobs:
           # Upload entire repository
           path: '.'
       - name: Run Server
+          # try trigger again
           run: |
             python manage.py runserver &
       - name: Deploy to GitHub Pages
